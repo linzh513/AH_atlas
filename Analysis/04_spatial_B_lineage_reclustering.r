@@ -1233,7 +1233,6 @@ plot_subtypes <- function(data_points, data_means, data_tests, columns = 4) {
     scale_fill_manual(values = group_colors, drop = FALSE) +
     scale_y_continuous(expand = expansion(mult = c(0.02, 0.08))) +
     labs(title = "B-cell lineage subcluster proportions by donor",
-         subtitle = "Two-sided unpaired Welch t-test; each dot represents one donor",
          x = NULL, y = "Cells within lineage (%)", fill = NULL) +
     theme_classic(base_size = 11) +
     theme(legend.position = "top", strip.text = element_text(face = "bold"),
